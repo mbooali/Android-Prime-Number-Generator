@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/fragment_mersenne_twister">
+
+    <TableRow>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/mt_iv"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:hint="Enter the initial seed for mersenne twister" />
+    </TableRow>
+
+    <TableRow>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/mt_key_length"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:hint="Enter the key length"
+        android:editable="false"
+        android:text="2048" />
+
+    </TableRow>
+
+    <TableRow>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Number"
+        android:id="@+id/btn_ms_gen_num"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:singleLine="false" />
+    </TableRow>
+
+    <TableRow>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Result!"
+        android:id="@+id/btn_ms_gen_result"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1" />
+    </TableRow>
+</TableLayout>

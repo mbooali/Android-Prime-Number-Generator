@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">73</string>
+    <string name="title_generation_page">Mersenne Twister</string>
+    <string name="title_primality_test_1">Miller-Rabin</string>
+    <string name="title_primality_test_2">Solovay-Strassen</string>
+    <string name="title_result">Result</string>
+    <string name="action_settings">Why 73?</string>
+    <string name="message_about">The best number is 73. Why? 73 is the 21st prime number. Its mirror, 37, is the 12th and its mirror, 21, is the product of multiplying 7 and 3... and in binary 73 is a palindrome, 1001001, which backwards is 1001001.</string>
+</resources>
